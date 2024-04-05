@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "project_name": "Amazone Clone",
+        "project_img": "",
+        "project_techstack": "Nextjs, React, Firebase, Node, Express"
+    },
+    {
+        "id": 2,
+        "project_name": "Amazone Clone",
+        "project_img": "",
+        "project_techstack": "Nextjs, React, Firebase, Node, Express"
+    }
+]

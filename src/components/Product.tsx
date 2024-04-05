@@ -1,7 +1,7 @@
 
 const Product = (props: any) => {
     return (
-        <div className="pro_comp bg-white rounded-lg cursor-pointer overflow-hidden flex flex-col gap-4">
+        <div className="pro_comp bg-white rounded-lg cursor-pointer overflow-hidden flex flex-col gap-4 hover:scale-105 hover:ease-in-out duration-300">
             <img src={props.img} alt="product images" className="" />
             <div className="bg-white *:bg-transparent px-4 py-2 text-[#27272a]">
                 <p className="font-bold">{props.name}</p>
