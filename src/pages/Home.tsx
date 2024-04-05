@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar"
 import profile from "../assets/profile.jpg"
 import amz_clo from "../assets/amazon-clone.webp"
 import Product from "../components/Product"
-import Skills from "../components/Skills"
+// import Skills from "../components/Skills"
 
 const Home = () => {
   return (
