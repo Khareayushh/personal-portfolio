@@ -11,17 +11,17 @@ const Home = () => {
       <Navbar />
       <div className="text-white">
         <div className="mainhero p-4 w-full">
-          <div className="main bg-[url('./assets/banner.jpg')] bg-cover  w-full bg-no-repeat">
+          <div className="main bg-[url('./assets/banner.png')] bg-cover  w-full bg-no-repeat">
             <div className="flex px-8 py-4 bg-transparent items-center gap-10 bg-blur backdrop-filter backdrop-blur-md">
               <div className="rounded-full border-4 overflow-hidden">
                 <img src={profile} alt="" className="w-[150px] overflow-hidden" />
               </div>
               <div className="details flex items-center w-full justify-between bg-transparent">
                 <div className="bg-inherit">
-                  <p className="font-bold text-4xl bg-inherit">Ayushh Khare</p>
-                  <p className="text-lg pt-1 bg-inherit ">@khareayushh</p>
+                  <p className="font-bold text-4xl bg-inherit text-black">Ayushh Khare</p>
+                  <p className="text-lg pt-1 bg-inherit text-slate-700 ">@khareayushh</p>
                 </div>
-                <a href="#" className="flex gap-2 p-2 bg-[#1c1b23] rounded-lg">
+                <a href="https://github.com/Khareayushh" target="_blank" className="flex gap-2 p-2 bg-[#1c1b23] rounded-lg">
                   <Github className="bg-inherit" />
                   Follow me on Github
                 </a>
