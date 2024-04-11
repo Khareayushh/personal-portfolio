@@ -2,6 +2,8 @@ import { Github } from "lucide-react"
 import Navbar from "../components/Navbar"
 import profile from "../assets/profile.jpg"
 import amz_clo from "../assets/amazon-clone.webp"
+import favgif from "../assets/Fav Gifs.png"
+import personaAI from "../assets/Persona AI.png"
 import Product from "../components/Product"
 // import Skills from "../components/Skills"
 
@@ -34,8 +36,10 @@ const Home = () => {
         <section className="project">
           <p className="text-[#e4e4e7] text-xl font-bold pb-6">Projects</p>
           <div className=" grid grid-cols-4 gap-4 max-xl:grid-cols-4 max-lg:grid-cols-3">
-            <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
-            <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
+            <a href="https://persona-pi.vercel.app/">
+              <Product name="Persona AI" img={personaAI} stack="NextJS, ReactJS, Gemini AI, TailwindCSS." />
+            </a>
+            <Product name="Favorite-Gifs" img={favgif} stack="NextJS, TailwindCSS, Firebase Auth and Firestore." />
             <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
             <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
           </div>
