@@ -1,7 +1,6 @@
 import { Github } from "lucide-react"
 import Navbar from "../components/Navbar"
 import profile from "../assets/profile.jpg"
-import amz_clo from "../assets/amazon-clone.webp"
 import task from "../assets/task.png"
 import act from "../assets/activity.png"
 import favgif from "../assets/Fav Gifs.png"
