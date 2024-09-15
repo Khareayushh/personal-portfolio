@@ -92,6 +92,7 @@ const Home = () => {
                 <div className="border-[1px] border-purple-500">Git</div>
                 <div>Github Actions</div>
                 <div className="border-[1px] border-blue-700">AWS</div>
+                <div className="border-[1px] border-yellow-700">Docker</div>
               </div>
             </div>
 
