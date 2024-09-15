@@ -2,6 +2,8 @@ import { Github } from "lucide-react"
 import Navbar from "../components/Navbar"
 import profile from "../assets/profile.jpg"
 import amz_clo from "../assets/amazon-clone.webp"
+import task from "../assets/task.png"
+import act from "../assets/activity.png"
 import favgif from "../assets/Fav Gifs.png"
 import personaAI from "../assets/Persona AI.png"
 import Product from "../components/Product"
@@ -37,13 +39,19 @@ const Home = () => {
           <p className="text-[#e4e4e7] text-xl font-bold pb-6">Projects</p>
           <div className=" grid grid-cols-4 gap-4 max-xl:grid-cols-4 max-lg:grid-cols-3">
             <a href="https://persona-pi.vercel.app/" target="_blank">
-              <Product name="Persona AI" img={personaAI} stack="NextJS, ReactJS, Gemini AI, TailwindCSS." />
+              <Product name="Persona AI" img={personaAI} stack="A personality identifier of the person who wrote the story." />
             </a>
             <a href="https://fav-giphy.vercel.app/" target="_blank">
-              <Product name="Favorite-Gifs" img={favgif} stack="NextJS, TailwindCSS, Firebase Auth and Firestore." />
+              <Product name="Favorite-Gifs" img={favgif} stack="Built a full-stack GIF search and favoriting app using Giphy API, Firebase Auth, and Firestore, with 30% improved data storage efficiency." />
             </a>
-            <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
-            <Product name="Amazone Clone" img={amz_clo} stack="Nextjs, React, Firebase, Node, Express" />
+            <a href="https://github.com/Khareayushh/Github-Activity-CLI" target="_blank">
+
+              <Product name="GitHub Activity Tracker" img={act} stack="CLI tool for GitHub activity with Caching for fast and efficient updates." />
+            </a>
+            <a href="https://ak-tdo.netlify.app/" target="_blank">
+
+              <Product name="Task Tracker" img={task} stack="An interactive website for being accountable for daily tasks." />
+            </a>
           </div>
         </section>
 
